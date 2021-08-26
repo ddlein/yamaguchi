@@ -4,13 +4,10 @@
 
 .page__voice {
   background-color: #181818;
-  //background-image: url('/img/Vector.png');
 }
 
 @media (min-width: $desktop-width) {
   .page__voice {
     background-image: url('/img/Vector1.svg');
-    //background-repeat: no-repeat;
   }
 }
-
