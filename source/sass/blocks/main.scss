@@ -35,12 +35,12 @@
   line-height: 170%;
   position: absolute;
 
-  &--up {
+  &-up {
     left: 82px;
     top: 208px;
   }
 
-  &--down {
+  &-down {
     left: 181px;
     top: 208px;
   }
@@ -53,9 +53,9 @@
   top: 0;
 }
 
-.main__voice {
-  background-color: #181818;
-}
+//.main__voice {
+//  background-color: #181818;
+//}
 
 .main__voice-title {
   color: #FFFFFF;
@@ -160,12 +160,12 @@
     height: 200px;
     font-size: 41px;
 
-    &--up {
+    &-up {
       left: 468px;
       top: 493px;
     }
 
-    &--down {
+    &-down {
       left: 776px;
       top: 493px;
     }
@@ -225,5 +225,4 @@
 
     }
   }
-
 }
