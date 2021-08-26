@@ -1,5 +1,5 @@
-const up = document.querySelector('.button--up');
-const down = document.querySelector('.button--down');
+const up = document.querySelector('.main__button-up');
+const down = document.querySelector('.main__button-down');
 
 
 up.addEventListener(('click'), () => {

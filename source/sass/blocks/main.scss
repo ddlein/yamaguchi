@@ -21,7 +21,7 @@
   position: relative;
 }
 
-.button {
+.main__button {
   display: block;
   border: none;
   outline: none;
@@ -46,7 +46,7 @@
   }
 }
 
-.second-part {
+.main__second-part {
   position: absolute;
   bottom: 331px;
   left: 0;
@@ -155,7 +155,7 @@
     }
   }
 
-  .button {
+  .main__button {
     width: 200px;
     height: 200px;
     font-size: 41px;
