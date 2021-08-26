@@ -1,0 +1,229 @@
+.main__title {
+  font-family: Bebasneue-bold, serif;
+  font-size: 38px;
+  line-height: 100%;
+  width: 277px;
+  color: #0B64FE;
+  margin: 12px auto 0;
+}
+
+.main__description {
+  font-family: Ubuntu-light, serif;
+  color: #181818;
+  font-size: 16px;
+  line-height: 27px;
+  margin: 0 auto 0 15px;
+}
+
+.main__table-wrapper {
+  width: $mobile-width;
+  margin: 0 auto;
+  position: relative;
+}
+
+.button {
+  display: block;
+  border: none;
+  outline: none;
+  z-index: 100;
+  font-family: Ubuntu-light, serif;
+  background-color: #A6FFFF;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  font-size: 12.2752px;
+  line-height: 170%;
+  position: absolute;
+
+  &--up {
+    left: 82px;
+    top: 208px;
+  }
+
+  &--down {
+    left: 181px;
+    top: 208px;
+  }
+}
+
+.second-part {
+  position: absolute;
+  bottom: 331px;
+  left: 0;
+  top: 0;
+}
+
+.main__voice {
+  background-color: #181818;
+}
+
+.main__voice-title {
+  color: #FFFFFF;
+  font-size: 34px;
+  line-height: 100%;
+  font-family: Montserrat, serif;
+  width: 280px;
+  margin-left: 12px;
+}
+
+.main__voice-description {
+  font-family: Montserrat, serif;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 170%;
+  margin-left: 12px;
+}
+
+.main__img-wrapper {
+  width: $mobile-width;
+  margin: 0 auto;
+}
+
+.main__woman-img {
+  z-index: 5;
+  position: relative;
+}
+
+.main__ellipse-img {
+  margin-left: 47px;
+  margin-top: 60px;
+}
+
+.main__phone-img {
+  width: 340px;
+  display: block;
+  margin: 35px auto auto;
+}
+
+.main__command-wrapper {
+  width: $mobile-width;
+  margin: 40px auto 0;
+}
+
+.main__command {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-family: Montserrat-black, serif;
+  margin: 0;
+
+  &-1 {
+    font-size: 38.6546px;
+    line-height: 90%;
+  }
+
+  &-2 {
+    font-size: 61.4163px;
+    line-height: 90%;
+    margin-top: 17px;
+    margin-bottom: 15px;
+  }
+
+  &-3 {
+    font-size: 49.8561px;
+    line-height: 90%;
+  }
+}
+
+
+@media (min-width: $desktop-width) {
+  .main__table-wrapper {
+    width: auto;
+    position: absolute;
+    top: 0;
+    left: -115px;
+    right: 472px;
+  }
+
+  .main__title {
+    font-family: Ubuntu-light, serif;
+    font-size: 62px;
+    line-height: 100%;
+    width: 579px;
+    margin-right: 184px;
+    margin-bottom: 71px;
+  }
+
+  .main__description {
+    font-size: 22px;
+    line-height: 170%;
+    width: 500px;
+    margin-right: 257px;
+    margin-left: auto;
+
+    &:nth-child(2) {
+      margin-bottom: 68px;
+    }
+  }
+
+  .button {
+    width: 200px;
+    height: 200px;
+    font-size: 41px;
+
+    &--up {
+      left: 468px;
+      top: 493px;
+    }
+
+    &--down {
+      left: 776px;
+      top: 493px;
+    }
+  }
+
+  .main__voice-title {
+    font-size: 56px;
+    line-height: 130%;
+    width: 380px;
+    margin-left: 76px;
+  }
+
+  .main__voice-description {
+    font-size: 22px;
+    line-height: 170%;
+    width: 564px;
+    margin-left: 76px;
+  }
+
+  .main__img-wrapper {
+    position: absolute;
+    left: 800px;
+    top: 0;
+  }
+
+  .main__phone-img {
+    position: absolute;
+    left: 1014px;
+    top: 0;
+    width: 888px;
+  }
+
+  .main__command-wrapper {
+    margin-left: 76px;
+    width: 800px
+  }
+
+  .main__command {
+    &-1 {
+      font-size: 44.7911px;
+      line-height: 90%;
+    }
+
+    &-2 {
+      font-size: 61.4163px;
+      line-height: 90%;
+      margin-top: 26px;
+      margin-bottom: 15px;
+      display: inline-block;
+      margin-left: 75px;
+    }
+
+    &-3 {
+      font-size: 61.4163px;
+      line-height: 90%;
+      display: inline-block;
+
+    }
+  }
+
+}

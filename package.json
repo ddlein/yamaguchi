@@ -1,0 +1,30 @@
+{
+  "name": "yamaguchi-test",
+  "version": "1.0.0",
+  "description": "Тестовое задание",
+  "main": "index.html",
+  "scripts": {
+    "build": "gulp styles",
+    "start": "gulp"
+  },
+  "author": "Дмитрий Леин",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "10.0.2",
+    "browser-sync": "2.26.13",
+    "gulp": "4.0.2",
+    "gulp-plumber": "1.2.1",
+    "gulp-postcss": "9.0.0",
+    "gulp-sass": "4.1.0",
+    "gulp-sourcemaps": "3.0.0",
+    "postcss": "8.1.7"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not dead",
+    "not ie <= 11"
+  ],
+  "dependencies": {
+    "gsap": "^3.7.1"
+  }
+}
