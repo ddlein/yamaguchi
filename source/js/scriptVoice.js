@@ -16,7 +16,6 @@ gsap
 gsap
   .timeline()
   .to(".main__blur", {
-    // delay: 0.2,
     duration: 1,
     opacity: 1,
   })
