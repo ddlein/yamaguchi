@@ -1,31 +1,42 @@
-const woman = document.querySelector('.main__woman-img');
-const ellipse = document.querySelector('.main__ellipse-img');
-console.log(1);
-
 gsap
   .timeline()
   .from(".main__woman-img", {
-    y: 80,
+    y: 900,
     opacity: 0,
-    duration: 2,
+    duration: 7, //7
   })
   .to(".main__woman-img", {
     y: 40,
-    duration: 3,
+    duration: 2,
     yoyo: true,
     repeatDelay: 0.1,
     repeat: -1,
   });
 
-  gsap
-    .timeline()
-    .to(".main__ellipse-img", {
-      duration: 1.5,
-      scale: 1.6,
-    })
-    .to(".main__ellipse-img", {
-      duration: 1.5,
-      x: 0,
-      scale: 0.5,
-    });
+gsap
+  .timeline()
+  .to(".main__blur", {
+    // delay: 0.2,
+    duration: 1,
+    opacity: 1,
+  })
+  .to(".main__blur", {
+    delay: 3.5,
+    duration: 6,
+    scale: 0.1,
+    opacity: 0,
+  });
+
+gsap
+  .timeline()
+  .to(".main__ellipse-img", {
+    duration: 1.5,
+    scale: 1.8,
+  })
+  .to(".main__ellipse-img", {
+    delay: 1.6, //1.6
+    duration: 6,
+    x: 0,
+    scale: 0.5,
+  });
 

@@ -73,6 +73,28 @@
 .main__img-wrapper {
   width: $mobile-width;
   margin: 0 auto;
+  position: relative;
+  top: 26px;
+}
+
+.main__woman-wrapper {
+  overflow: hidden;
+  height: 800px;
+  position: relative;
+  top: 26px;
+}
+
+.main__blur {
+  position: absolute;
+  width:  230px;
+  height: 30px;
+  left: 30px;
+  z-index: 100;
+  background-color: black;
+  top: 810px;
+  opacity: 0;
+  filter: blur(6px);
+  border-radius: 25%;
 }
 
 .main__woman-img {
@@ -82,7 +104,6 @@
 
 .main__ellipse-img {
   margin-left: 47px;
-  margin-top: 60px;
 }
 
 .main__phone-img {
